@@ -1,0 +1,50 @@
+name: mobile_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^0.13.5
+  flutter_local_notifications: ^12.0.4
+  timezone: ^0.9.0
+  cupertino_icons: ^1.0.8
+  audioplayers: ^5.2.0
+  flutter_launcher_icons: ^0.14.3
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  provider: ^6.1.5
+  cloud_firestore: ^5.6.8
+  google_sign_in: ^6.3.0
+  sign_in_with_apple: ^7.0.1
+  intl: ^0.20.2
+  shared_preferences: ^2.2.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter: 
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/images/icons/
+    - assets/music/
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icons/neomama_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/icons/neomama_icon.png"
+  
+

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "44284616669",
+    "project_id": "neomama-d11ab",
+    "storage_bucket": "neomama-d11ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44284616669:android:5792f4624e9259ec346034",
+        "android_client_info": {
+          "package_name": "com.dilakekec.neomama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44284616669-nt2ht07n6pqitjiva9etq0975a1p0l9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dilakekec.neomama",
+            "certificate_hash": "9c2ceca4f10e5e39253ee76aadba946a8bb01ded"
+          }
+        },
+        {
+          "client_id": "44284616669-ve3k6p6qghn7qs1i6bl4jh30o42pfv68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx6aEmqODHQMITOTqrgemewI8ScTpMqvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44284616669-ve3k6p6qghn7qs1i6bl4jh30o42pfv68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

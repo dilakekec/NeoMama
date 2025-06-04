@@ -1,0 +1,10 @@
+{
+    "@@locale": "tr",
+    "login": "Giriş Yap",
+    "signup": "Kayıt Ol",
+    "email": "E-posta",
+    "password": "Şifre",
+    "createAccount": "Hesap Oluştur",
+    "alreadyHaveAccount": "Zaten Hesabın var mı?",
+    "googleLogin": "Google ile Giriş Yap"
+}
