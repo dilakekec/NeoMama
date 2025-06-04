@@ -54,5 +54,9 @@ cd NeoMama
 flutter pub get
 flutter run
 
+Demo Video
+
+Watch the project demo here: NeoMama – CS50 Final Project (https://youtube.com/shorts/B1DkFLW11uc?feature=share)
+
 > This is the main README for the **NeoMama** project.  
 > All code lives inside the `/mobile_app` folder. 
