@@ -1,8 +1,10 @@
 > Flutter app source is located inside `mobile_app/` directory
+This project was submitted as part of Harvard's CS50 course.
+It is fully built by Dila Dicle Kekeç, a self-taught developer and mother of one 💜
 # NeoMama
 
 ## 👩‍💻 Author
-
+  
 **Dila Dicle Kekeç**  
 A geography teacher turned developer — building tools for real life.
 
