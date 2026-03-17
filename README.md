@@ -1,15 +1,13 @@
 NeoMama
-
+Available on the Apple App Store
 AI-powered mobile parenting assistant with real-time chat and baby development guidance.
 
 ## Live Application
 
-NeoMama is currently live on the Apple App Store.
+NeoMama is currently available on the Apple App Store.
 
-Download: https://apps.apple.com/tr/app/neomama/id6758947945?l=tr
+Download the app: https://apps.apple.com/tr/app/neomama/id6758947945?l=tr
 
-NeoMama is a mobile application designed to support new mothers during the challenging first months of parenting.
-The app combines AI assistance, baby development guidance, and practical daily tools into a calm and simple interface.
 
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 17" src="https://github.com/user-attachments/assets/7195b824-9478-41c7-8040-a70c16f7ecfe" />
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 13" src="https://github.com/user-attachments/assets/9766b2d6-4c35-4d8c-b908-0ef746a440b3" />
@@ -17,6 +15,9 @@ The app combines AI assistance, baby development guidance, and practical daily t
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 06" src="https://github.com/user-attachments/assets/04326002-57d6-4ac7-93df-38cc276dd91f" />
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 03" src="https://github.com/user-attachments/assets/c7334734-8457-43b0-bdd5-49f101a97c8c" />
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 06 57" src="https://github.com/user-attachments/assets/d03fd6f1-17f5-4771-ba90-dee3912aac5c" />
+
+NeoMama is a mobile application designed to support new mothers during the challenging first months of parenting.
+The app combines AI assistance, baby development guidance, and practical daily tools into a calm and simple interface.
 
 Unlike traditional parenting apps that only provide static articles, NeoMama offers interactive support and personalized guidance.
 
@@ -89,13 +90,13 @@ Flutter App
 
 ⸻
 
-Screens
+Main Screens
 
-	•	Dashboard
-	•	AI chat assistant
-	•	Baby development screen
-	•	Feeding reminders
-	•	Articles & learning content
+• Dashboard  
+• AI Chat Assistant  
+• Baby Development Tracker  
+• Feeding Reminders  
+• Articles & Learning Content
 
 ⸻
 
@@ -113,13 +114,12 @@ I created NeoMama after observing how overwhelming the first year of parenting c
 The goal was to build a simple AI companion that reduces cognitive load for new mothers, especially during night hours when traditional support is unavailable.
 
 ⸻
-
-Future Improvements
-	•	multilingual support
-	•	community features
-	•	smarter AI personalization
-	•	data-driven baby development insights
-
+ Future Improvements
+• multilingual support
+• smarter AI personalization
+• community features
+• data-driven baby development insights
+• Android release
 ⸻
 
 Author
