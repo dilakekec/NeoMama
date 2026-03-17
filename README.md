@@ -71,23 +71,22 @@ Architecture
 
 Mobile app communicates with a FastAPI backend that handles AI requests and data management
 
-User (Mobile App)
-
-        ↓
-		
-Flutter Client
-
-        ↓
-		
+User
+  │
+  ▼
+Flutter Mobile App (Client)
+  │
+  ▼		
 FastAPI Backend
-
-        ↓
-		
-LLM / AI Model
-
-        ↓
-		
-Response → Mobile App
+  │
+  ▼	
+LLM / AI Model (via OpenRouter)
+  │
+  ▼
+AI Response
+  │
+  ▼
+Response returned to Mobile App
 
 Basic flow:
 
