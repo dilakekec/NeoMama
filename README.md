@@ -70,14 +70,23 @@ Firebase (Firestore, Authentication)
 Architecture
 
 Mobile app communicates with a FastAPI backend that handles AI requests and data management
+
 User (Mobile App)
+
         ↓
+		
 Flutter Client
+
         ↓
+		
 FastAPI Backend
+
         ↓
+		
 LLM / AI Model
+
         ↓
+		
 Response → Mobile App
 
 Basic flow:
