@@ -67,7 +67,6 @@ Flutter App
 ⸻
 
 Screens
-
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 17" src="https://github.com/user-attachments/assets/7195b824-9478-41c7-8040-a70c16f7ecfe" />
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 13" src="https://github.com/user-attachments/assets/9766b2d6-4c35-4d8c-b908-0ef746a440b3" />
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 11" src="https://github.com/user-attachments/assets/f756f44f-0803-4ec4-b686-fb805c65cd6b" />
@@ -87,7 +86,7 @@ App Store
 
 Available on the App Store:
 
-(link here)
+https://apps.apple.com/tr/app/neomama/id6758947945?l=tr
 
 ⸻
 
