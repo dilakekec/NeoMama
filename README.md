@@ -1,9 +1,22 @@
 NeoMama
 
-AI-powered parenting assistant built with Flutter and FastAPI.
+AI-powered mobile parenting assistant with real-time chat and baby development guidance.
+
+## Live Application
+
+NeoMama is currently live on the Apple App Store.
+
+Download: https://apps.apple.com/tr/app/neomama/id6758947945?l=tr
 
 NeoMama is a mobile application designed to support new mothers during the challenging first months of parenting.
 The app combines AI assistance, baby development guidance, and practical daily tools into a calm and simple interface.
+
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 17" src="https://github.com/user-attachments/assets/7195b824-9478-41c7-8040-a70c16f7ecfe" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 13" src="https://github.com/user-attachments/assets/9766b2d6-4c35-4d8c-b908-0ef746a440b3" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 11" src="https://github.com/user-attachments/assets/f756f44f-0803-4ec4-b686-fb805c65cd6b" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 06" src="https://github.com/user-attachments/assets/04326002-57d6-4ac7-93df-38cc276dd91f" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 03" src="https://github.com/user-attachments/assets/c7334734-8457-43b0-bdd5-49f101a97c8c" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 06 57" src="https://github.com/user-attachments/assets/d03fd6f1-17f5-4771-ba90-dee3912aac5c" />
 
 Unlike traditional parenting apps that only provide static articles, NeoMama offers interactive support and personalized guidance.
 
@@ -25,12 +38,13 @@ Solution
 
 NeoMama provides a lightweight AI-assisted companion designed for exhausted mothers.
 
-Key features include:
-	•	AI chat assistant for parenting questions
-	•	feeding schedule reminders
-	•	baby development guidance by age
-	•	sleep and routine tracking
-	•	calming UI designed for night use
+## Key Features
+
+• AI parenting assistant chat  
+• Baby development guidance by age  
+• Feeding reminders  
+• Sleep and routine tracking  
+• Articles and learning content
 
 The goal is to create a calm digital support system for mothers during the early parenting phase.
 
@@ -54,7 +68,16 @@ Firebase (Firestore, Authentication)
 
 Architecture
 
-Mobile app communicates with a FastAPI backend that handles AI requests and data management.
+Mobile app communicates with a FastAPI backend that handles AI requests and data management
+User (Mobile App)
+        ↓
+Flutter Client
+        ↓
+FastAPI Backend
+        ↓
+LLM / AI Model
+        ↓
+Response → Mobile App
 
 Basic flow:
 
@@ -67,12 +90,6 @@ Flutter App
 ⸻
 
 Screens
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 17" src="https://github.com/user-attachments/assets/7195b824-9478-41c7-8040-a70c16f7ecfe" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 13" src="https://github.com/user-attachments/assets/9766b2d6-4c35-4d8c-b908-0ef746a440b3" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 11" src="https://github.com/user-attachments/assets/f756f44f-0803-4ec4-b686-fb805c65cd6b" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 06" src="https://github.com/user-attachments/assets/04326002-57d6-4ac7-93df-38cc276dd91f" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 07 03" src="https://github.com/user-attachments/assets/c7334734-8457-43b0-bdd5-49f101a97c8c" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-10 at 23 06 57" src="https://github.com/user-attachments/assets/d03fd6f1-17f5-4771-ba90-dee3912aac5c" />
 
 	•	Dashboard
 	•	AI chat assistant
